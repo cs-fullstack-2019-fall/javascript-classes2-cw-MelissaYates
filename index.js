@@ -25,13 +25,13 @@ class Movie{
                 this.yearReleased = differentYear;
         }
 }
-
+// create two different Movie objects. You created one called movie 
 let movie = new Movie ("Die Hard", "PG 16", "1990");
 console.log(movie);
 //object 1
 movie.changeMovieTitle("Braddock");
 console.log(movie);
-//object 2
+//object 2 - this is not another object, you are update the original object movie
 movie.changeRating("Adult");
 console.log(movie);
 
